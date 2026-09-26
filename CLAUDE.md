@@ -1,9 +1,10 @@
-# CLAUDE.md: regole del progetto 'RatioLab' (`ratiolab/`)
+# CLAUDE.md: regole del progetto 'RatioLab' (repo `Roccobot/ratiolab`)
 
 > **Cos'è questo file.** Le regole del progetto **RatioLab**, la paginetta che riduce due
-> numeri al loro rapporto e lo confronta con i formati standard. Si carica quando si legge un
-> file di questa cartella; le regole trasversali vivono nel `CLAUDE.md` di **root**, quelle
-> universali in `rules/Roccobot.md` di `Roccobot/tools`.
+> numeri al loro rapporto e lo confronta con i formati standard. Dal 2026-09-26 vive in un
+> repo suo (prima era la cartella `ratiolab/` di `Roccobot/roccobot.github.io`, e l'indirizzo
+> pubblicato non è cambiato). Le regole trasversali vivono nel `CLAUDE.md` di root di
+> `Roccobot/roccobot.github.io`, quelle universali in `rules/Roccobot.md` di `Roccobot/tools`.
 
 ## 🧭 Che cos'è
 
@@ -40,7 +41,7 @@ nel trasporto sono **due** cose che una regola del repo impone, più un refuso c
 correggere: chi ritocca questo file sappia che il resto è come l'ha scritto lui.
 
 - ⚠️⚠️ **I TRE `innerHTML` SONO DIVENTATI NODI COMPOSTI**, perché 'mai `innerHTML`' è una
-  regola **non derogabile** del repo (`CLAUDE.md` di root, § '🔒 Regole NON derogabili a
+  regola **non derogabile** (`CLAUDE.md` di root di `Roccobot/roccobot.github.io`, § '🔒 Regole NON derogabili a
   nessun livello'). Il testo interpolato nasce dai due campi, che accettano solo cifre e un
   separatore, quindi il rischio pratico era nullo: la regola vieta comunque il canale, non il
   caso. I pezzi sono `separatorNodes` (il separatore decimale dentro il suo `span`),
@@ -248,7 +249,7 @@ vede bene**: il conto, la copia e il riquadro restano, la grafica no.
   - ⚠️ **Fino a quel giorno qui c'era scritto il contrario**, e la nota indirizzava il lavoro:
     un banco imponeva **a mano** le misure che Tailwind genera, cioè misurava la propria
     emulazione. Chi trova quella riga in un banco vecchio, o la stessa nota in
-    [`CleanSVG/CLAUDE.md`](../CleanSVG/CLAUDE.md), sappia che oggi non serve più.
+    il `CLAUDE.md` di CleanSVG (in `Roccobot/roccobot.github.io`), sappia che oggi non serve più.
   - ⚠️ **Resta vero che senza quella risposta la pagina funziona e non si vede bene**: la
     verifica va comunque fatta con la rete, e un contenitore senza uscita darebbe una pagina
     nuda invece di un errore.
