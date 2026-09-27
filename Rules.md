@@ -1,10 +1,16 @@
-# CLAUDE.md: regole del progetto 'RatioLab' (repo `Roccobot/ratiolab`)
+# Rules.md: regole del progetto 'RatioLab' (repo `Roccobot/ratiolab`)
 
-> **Cos'è questo file.** Le regole del progetto **RatioLab**, la paginetta che riduce due
-> numeri al loro rapporto e lo confronta con i formati standard. Dal 2026-09-26 vive in un
-> repo suo (prima era la cartella `ratiolab/` di `Roccobot/roccobot.github.io`, e l'indirizzo
-> pubblicato non è cambiato). Le regole trasversali vivono nel `CLAUDE.md` di root di
-> `Roccobot/roccobot.github.io`, quelle universali in `rules/Roccobot.md` di `Roccobot/tools`.
+> **Cos'è questo file.** Il testo completo delle regole del progetto **RatioLab**, la paginetta
+> che riduce due numeri al loro rapporto e lo confronta con i formati standard. Dal 2026-09-26
+> vive in un repo suo (prima era la cartella `ratiolab/` di `Roccobot/roccobot.github.io`, e
+> l'indirizzo pubblicato non è cambiato). Le regole trasversali vivono nelle regole dell'hub
+> `Roccobot/roccobot.github.io` (`AGENTS.md` e `Rules.md`), quelle universali in
+> `rules/Roccobot.md` di `Roccobot/tools`.
+> Vale per **tutti gli agenti**: il nucleo, cioè ogni regola in una riga, vive in `AGENTS.md`, e
+> questo file ne dà il perché. Claude Code lo carica da sé, perché `CLAUDE.md` lo importa; gli
+> altri agenti lo leggono quando il lavoro tocca una sua sezione.
+> ⚠️ **Fino al 2026-09-27 questo testo era il `CLAUDE.md` del repo**: una nota che nomina il
+> `CLAUDE.md` di RatioLab per una di queste sezioni parla di questo file.
 
 ## 🧭 Che cos'è
 
