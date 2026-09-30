@@ -148,7 +148,7 @@ font-size: clamp(16px, min(100vw / 34, 100vh / 48.5), 48px);
 
 - ⚠️⚠️ **I DUE DIVISORI SONO MISURATI, E LA MISURA SI FA A PAGINA PIENA**: col risultato in scena
   il contenuto è alto **46,75rem** e la riga dei campi chiede **32,8rem**, e i due numeri scritti
-  portano un'aria del 3,7%. ⚠️ **Misurata a riposo la pagina mente**: a campi vuoti le due righe
+  garantiscono uno spazio libero del 3,7%. ⚠️ **Misurata a riposo la pagina mente**: a campi vuoti le due righe
   del risultato sono alte zero, quindi il contenuto misura 40,25rem, e il divisore che ne esce fa
   traboccare la finestra di **107 pixel** su un desktop. È il difetto che il banco ha preso alla
   prima corsa.
@@ -267,7 +267,7 @@ vede bene**: il conto, la copia e il riquadro restano, la grafica no.
   **delegato** al documento e legge `data-copy`, così sopravvive al rifacimento della riga a
   ogni tasto premuto.
 - **Il tasto Tab gira fra i due campi e basta**, in tutti e due i versi: qui non c'è altro da
-  raggiungere da tastiera, e i comandi accessori portano `tabindex="-1"` per restare fuori dal
+  raggiungere da tastiera, e i comandi accessori hanno `tabindex="-1"` per restare fuori dal
   giro.
 - ⚠️ **Il menu del tasto destro è disattivato**, e con lui il richiamo del tocco prolungato
   (`-webkit-touch-callout`): la pagina non ha niente da offrire in quel menu, e su un telefono
