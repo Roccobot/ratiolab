@@ -255,7 +255,9 @@ vede bene**: il conto, la copia e il riquadro restano, la grafica no.
   - ⚠️ **Fino a quel giorno qui c'era scritto il contrario**, e la nota indirizzava il lavoro:
     un banco imponeva **a mano** le misure che Tailwind genera, cioè misurava la propria
     emulazione. Chi trova quella riga in un banco vecchio, o la stessa nota in
-    il `CLAUDE.md` di CleanSVG (in `Roccobot/roccobot.github.io`), sappia che oggi non serve più.
+    un vecchio `CLAUDE.md` di CleanSVG (di quando il progetto viveva nell'hub), sappia che oggi
+    non serve più. Rimisurato il 2026-11-13: il Chromium di Playwright raggiunge la rete, e
+    `cdn.tailwindcss.com` risponde `200`.
   - ⚠️ **Resta vero che senza quella risposta la pagina funziona e non si vede bene**: la
     verifica va comunque fatta con la rete, e un contenitore senza uscita darebbe una pagina
     nuda invece di un errore.
